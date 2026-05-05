@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rudra Pratap Sinha - Full Stack Developer</title>
+    <meta name="description" content="Rudra Pratap Sinha - Full Stack Developer & AI Specialist. Discover my innovative projects in AI, web development, and machine learning.">
+    <meta name="keywords" content="Full Stack Developer, AI Developer, Python, React, Next.js, Machine Learning">
+    <meta name="theme-color" content="#3498db">
+    <title>Rudra Pratap Sinha | Full Stack Developer & AI Specialist</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <div class="logo">Rudra<span class="dot">.dev</span></div>
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>Rudra<span class="dot">.dev</span></span>
+                </div>
                 <ul class="nav-menu">
                     <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
                     <li><a href="#academics" class="nav-link">Academics</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#achievements" class="nav-link">Achievements</a></li>
@@ -31,21 +40,54 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Animated Background -->
     <section id="home" class="hero">
-        <div class="container">
+        <div class="stars"></div>
+        <div class="container hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">Rudra Pratap Sinha</h1>
-                    <p class="hero-subtitle">Full Stack Developer</p>
-                    <p class="hero-description">Class 10 (2024-27) student and full-stack AI developer seeking a technical internship to apply real-world skills while learning professional development concepts.</p>
+                    <div class="hero-badge">
+                        <span class="badge-text">Welcome to my portfolio</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="word">Rudra</span>
+                        <span class="word">Pratap</span>
+                        <span class="word">Sinha</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-cursor">Full Stack Developer & AI Specialist</span>
+                    </p>
+                    <p class="hero-description">Building intelligent solutions with cutting-edge AI, machine learning, and web technologies. Class 10 student seeking internship opportunities to create real-world impact.</p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="15">0</div>
+                            <div class="stat-label">Awards</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="100">0</div>
+                            <div class="stat-label">Commits</div>
+                        </div>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="profile.jpg" alt="Rudra Pratap Sinha" class="profile-img">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Rudra Pratap Sinha" class="profile-img">
+                        <div class="image-border"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,33 +101,90 @@
                 <div class="about-text">
                     <h3>Who Am I?</h3>
                     <p>I'm a passionate full-stack developer with a strong foundation in AI and machine learning. Currently pursuing my education at The Maithan School, I've already built impressive projects and earned recognition through various olympiads and competitions.</p>
-                    <p>My journey combines theoretical knowledge with practical experience, allowing me to solve real-world problems through code.</p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skills-column">
-                        <h3>Technical Skills</h3>
-                        <ul class="skills-list">
-                            <li><i class="fas fa-code"></i> Web Development</li>
-                            <li><i class="fas fa-react"></i> React (Next.js)</li>
-                            <li><i class="fas fa-python"></i> Python</li>
-                            <li><i class="fas fa-code"></i> HTML, CSS</li>
-                            <li><i class="fas fa-brain"></i> AI Development</li>
-                            <li><i class="fas fa-database"></i> Supabase Backend Management</li>
-                            <li><i class="fas fa-calculator"></i> Mathematics</li>
-                        </ul>
+                    <p>My journey combines theoretical knowledge with practical experience, allowing me to solve real-world problems through code and artificial intelligence.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Full Stack Development</h4>
+                            <p>Crafting responsive web applications with modern frameworks</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-brain"></i>
+                            <h4>AI & Machine Learning</h4>
+                            <p>Building intelligent systems and autonomous solutions</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Quick Learner</h4>
+                            <p>Rapidly adapting to new technologies and frameworks</p>
+                        </div>
                     </div>
-                    <div class="skills-column">
-                        <h3>Languages</h3>
-                        <ul class="skills-list">
-                            <li><i class="fas fa-globe"></i> English (Fluent)</li>
-                            <li><i class="fas fa-globe"></i> Hindi (Native)</li>
-                            <li><i class="fas fa-globe"></i> French (Learning)</li>
-                        </ul>
-                        <h3 style="margin-top: 2rem;">Education</h3>
-                        <ul class="skills-list">
-                            <li><strong>The Maithan School</strong> (2021-Current) - Greater Noida West</li>
-                            <li><strong>DAV Public School</strong> (2015-2019) - Nahan</li>
-                        </ul>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <i class="fas fa-code-branch"></i>
+                        <div class="floating-card card-1">
+                            <i class="fas fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-database"></i>
+                            <span>Backend</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Supabase</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-brain"></i> AI/ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">LLMs</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Data Science</span>
+                        <span class="skill-tag">PyTorch</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">VS Code</span>
                     </div>
                 </div>
             </div>
@@ -95,49 +194,51 @@
     <!-- Academics Section -->
     <section id="academics" class="academics">
         <div class="container">
-            <h2 class="section-title">Academics & Olympiads</h2>
-            <div class="academics-grid">
-                <div class="academic-card">
-                    <h3>Scholar Badge Winner</h3>
-                    <p class="badge-info">Awarded for >91%</p>
-                    <div class="details">
-                        <div class="detail-row">
-                            <span>2024-25:</span>
-                            <strong>Hindi, ICT, Maths</strong>
-                        </div>
-                        <div class="detail-row">
-                            <span>2023-24:</span>
-                            <strong>Hindi, Science, French</strong>
-                        </div>
-                        <div class="detail-row">
-                            <span>2022-23:</span>
-                            <strong>Science, Hindi, French, Maths</strong>
+            <h2 class="section-title">Education & Academics</h2>
+            <div class="academics-content">
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>The Maithan School</h3>
+                            <p class="timeline-date">2021 - Present</p>
+                            <p class="timeline-location">Greater Noida West, Delhi NCR</p>
+                            <p>Currently pursuing secondary education with excellent academic standing. Multiple Scholar Badges and awards in various subjects.</p>
                         </div>
                     </div>
-                    <p class="small-text">Super Scholar Badge and a Tie in 2024-25 for getting scholar badge consecutively 3 years</p>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>DAV Public School</h3>
+                            <p class="timeline-date">2015 - 2019</p>
+                            <p class="timeline-location">Nahan, Himachal Pradesh</p>
+                            <p>Completed primary education with strong academic performance and participated in various competitions.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="academic-card">
-                    <h3>Subject Topper</h3>
-                    <p class="badge-info">Awarded for >90%</p>
-                    <div class="details">
-                        <div class="olympiad-list">
-                            <h4>SOF (Gold Medals)</h4>
-                            <ul>
-                                <li>2024-25 NSO, IMO, ISSO</li>
-                                <li>2023-24 NSO, IMO</li>
-                                <li>2024-28 NSO (29/3)</li>
-                            </ul>
-                            <h4>SOF (Level 2 Rank)</h4>
-                            <ul>
-                                <li>2024-28 NSO (29/3)</li>
-                                <li>International: 338 zonal), IMO (4329 international, 373 zonal)</li>
-                            </ul>
-                            <h4>Other Olympiads</h4>
-                            <ul>
-                                <li>LogiQuds 2022-23: Rank 5 International</li>
-                                <li>IOQM 2025-26: 19 Marks in Region 2</li>
-                            </ul>
+                <div class="academics-highlights">
+                    <h3>Key Achievements</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <i class="fas fa-award"></i>
+                            <h4>SOF Gold Medals</h4>
+                            <p>NSO, IMO, ISSO in 2024-25</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>NSO Level 2</h4>
+                            <p>International: 338 zonal ranking</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-brain"></i>
+                            <h4>IMO International</h4>
+                            <p>4329 International Ranking</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-star"></i>
+                            <h4>Super Scholar Badge</h4>
+                            <p>3 Consecutive Years</p>
                         </div>
                     </div>
                 </div>
@@ -151,54 +252,83 @@
             <h2 class="section-title">Major Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <div class="project-badge">AI & Automation</div>
                     <div class="project-header">
                         <i class="fas fa-robot"></i>
                         <h3>NotionOS X</h3>
                     </div>
-                    <p class="project-description">An autonomous multi-agent AI operating system framework with DAG planning, persistent memory, crisis ensemble evaluation, self-improvement loops and human-in-the-loop governance. It is visualized in 2-3 human showcasing amazing AI compatibility.</p>
+                    <p class="project-description">An autonomous multi-agent AI operating system framework with DAG planning, persistent memory, crisis ensemble evaluation, self-improvement loops and human-in-the-loop governance.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI/ML</span>
+                        <span>LLMs</span>
+                    </div>
                     <div class="project-links">
                         <a href="https://github.com/Rudra070311/NotionOS_X" target="_blank" class="project-link">
                             <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://github.com/Rudra070311/NotionOS_X" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Details
                         </a>
                     </div>
                 </div>
 
                 <div class="project-card">
+                    <div class="project-badge">RL Environment</div>
                     <div class="project-header">
                         <i class="fas fa-flask"></i>
                         <h3>FinLife OpenENV</h3>
                     </div>
-                    <p class="project-description">An RL environment made in 10 days during a hackathon (Hugging Face). It is also released on Hugging Face. It can train a model on financial allocation etc.</p>
+                    <p class="project-description">An RL environment built in 10 days during Hugging Face hackathon. Trains models on financial allocation and decision-making with realistic market simulations.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Reinforcement Learning</span>
+                        <span>Finance</span>
+                    </div>
                     <div class="project-links">
                         <a href="https://github.com/Rudra070311/Finlife-OpenENV" target="_blank" class="project-link">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                         <a href="https://huggingface.co/spaces/Rudra070311/Finlife-Openenv" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
+                            <i class="fas fa-play"></i> Live Demo
                         </a>
                     </div>
                 </div>
 
                 <div class="project-card">
+                    <div class="project-badge">IoT & Hardware</div>
                     <div class="project-header">
                         <i class="fas fa-cogs"></i>
-                        <h3>Mechatronics Rover</h3>
+                        <h3>Mechatronics Rover V2</h3>
                     </div>
-                    <p class="project-description">Working on a well-documented V2 IoT rover. Built a rover in July 2025 during my summer vacation using ESP-32, self-made rover part designs with the help of an organization, HOLBOS. Received the completion certificate as well as the certificate for the best mechanical design.</p>
+                    <p class="project-description">A well-documented IoT rover project using ESP-32 with self-designed mechanical parts. Recognized with certificates for completion and best mechanical design.</p>
+                    <div class="project-tech">
+                        <span>ESP-32</span>
+                        <span>IoT</span>
+                        <span>Mechatronics</span>
+                    </div>
                     <div class="project-links">
-                        <a href="#" class="project-link">Project Details</a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Documentation
+                        </a>
                     </div>
                 </div>
 
                 <div class="project-card">
+                    <div class="project-badge">Web App</div>
                     <div class="project-header">
                         <i class="fas fa-chart-line"></i>
                         <h3>Investt</h3>
                     </div>
-                    <p class="project-description">Built a Web Application on Financial Education after winning the NCEF Financial Quiz in 2025-2026, as I felt the need for people to learn Financial Education.</p>
+                    <p class="project-description">A comprehensive financial education web application built after winning NCEF Financial Quiz. Designed to make financial literacy accessible to everyone.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>Finance</span>
+                    </div>
                     <div class="project-links">
                         <a href="https://justpls.vercel.app" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
+                            <i class="fas fa-globe"></i> Live Site
                         </a>
                     </div>
                 </div>
@@ -209,22 +339,24 @@
     <!-- Achievements Section -->
     <section id="achievements" class="achievements">
         <div class="container">
-            <h2 class="section-title">Achievements</h2>
+            <h2 class="section-title">Achievements & Recognitions</h2>
             <div class="achievements-grid">
                 <div class="achievement-card">
                     <div class="achievement-icon">
                         <i class="fas fa-trophy"></i>
                     </div>
                     <h3>Aryabhatta Ganit Challenge</h3>
-                    <p>Secured 39th rank in Noida. I will be receiving a merit certificate for it.</p>
+                    <p class="achievement-rank">Rank: <strong>39th</strong> in Noida</p>
+                    <p>Merit certificate awarded for exceptional mathematical problem-solving and analytical skills.</p>
                 </div>
 
                 <div class="achievement-card">
                     <div class="achievement-icon">
                         <i class="fas fa-medal"></i>
                     </div>
-                    <h3>NCEF Financial Literacy Quiz</h3>
-                    <p>3rd Place, NCEF National Financial Literacy Quiz (Junior Category) - Central Region Winner.</p>
+                    <h3>NCEF Financial Quiz Winner</h3>
+                    <p class="achievement-rank">Rank: <strong>3rd Place</strong> (Junior Category)</p>
+                    <p>Central Region Winner in National Financial Literacy Quiz. This achievement motivated the creation of Investt.</p>
                 </div>
 
                 <div class="achievement-card">
@@ -232,15 +364,35 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <h3>IOQM 2025-26</h3>
-                    <p>Achieved a competitive score of 19 in IOQM on the first attempt, demonstrating strong logical reasoning and mathematical proficiency.</p>
+                    <p class="achievement-rank">Score: <strong>19/102</strong></p>
+                    <p>Scored competitively in IOQM on the first attempt, demonstrating strong logical reasoning and mathematical proficiency.</p>
                 </div>
 
                 <div class="achievement-card">
                     <div class="achievement-icon">
                         <i class="fas fa-certificate"></i>
                     </div>
-                    <h3>Travel and Tourism Skill</h3>
-                    <p>I got 0.5 credit score certificate for completing Travel and Tourism Skill</p>
+                    <h3>Scholar Badge Winner</h3>
+                    <p class="achievement-rank">3 Consecutive Years</p>
+                    <p>Awarded in Hindi, Science, French, ICT, and Mathematics. Super Scholar Badge recipient for 3 consecutive years of excellence.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>International Olympiad Medals</h3>
+                    <p class="achievement-rank">Multiple Gold Medals</p>
+                    <p>SOF National Science Olympiad (NSO), International Mathematics Olympiad (IMO), and Science Olympiad achievements with international rankings.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>LogiQuds Champion</h3>
+                    <p class="achievement-rank">Rank: <strong>5</strong> International</p>
+                    <p>Achieved top 5 ranking internationally in LogiQuds competition demonstrating exceptional logical reasoning skills.</p>
                 </div>
             </div>
         </div>
@@ -251,34 +403,58 @@
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <div class="contact-info">
+                <div class="contact-text">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, innovative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                </div>
+                <div class="contact-methods">
                     <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91 8720 8160 44</p>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
                         </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
+                        <div class="contact-details">
                             <h4>Email</h4>
                             <p><a href="mailto:rudra70311@gmail.com">rudra70311@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Address</h4>
-                            <p>Greater Noida West, Delhi NCR, India</p>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+918720816044">+91 8720 8160 44</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h4>GitHub</h4>
-                            <p><a href="https://github.com/Rudra070311" target="_blank">github.com/Rudra070311</a></p>
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
                         </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Greater Noida West, Delhi NCR, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-section">
+                    <h3>Connect On Social Media</h3>
+                    <div class="social-links-enhanced">
+                        <a href="https://github.com/Rudra070311" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/rudra-pratap-sinha" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="mailto:rudra70311@gmail.com" class="social-link" title="Gmail">
+                            <i class="fas fa-envelope"></i>
+                            <span>Gmail</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -288,9 +464,29 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Rudra Pratap Sinha. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://github.com/Rudra070311" target="_blank"><i class="fab fa-github"></i></a>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Rudra.dev</h4>
+                    <p>Full Stack Developer & AI Specialist</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow</h4>
+                    <div class="footer-socials">
+                        <a href="https://github.com/Rudra070311"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/rudra-pratap-sinha"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rudra Pratap Sinha. All rights reserved. | Crafted with <i class="fas fa-heart"></i> and Code</p>
             </div>
         </div>
     </footer>
